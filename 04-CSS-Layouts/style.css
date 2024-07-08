@@ -11,10 +11,12 @@ body {
 
   border-top: 10px solid #1098ad;
   position: relative;
+  width: 1200px;
+  padding: 0 50px;
 }
 
 .container {
-  width: 800px;
+  /* width: 800px; */
   /* margin-left: auto;
   margin-right: auto; */
   margin: 0 auto;
@@ -54,7 +56,7 @@ aside {
   /* padding-top: 50px;
   padding-bottom: 50px; */
   padding: 50px 0;
-  width: 500px;
+  /* width: 500px; */
 }
 
 /* SMALLER ELEMENTS */
@@ -290,4 +292,18 @@ nav p {
   font-style: normal;
   margin-bottom: 5px;
   display: block;
+}
+
+.row {
+  display: flex;
+  gap: 75px;
+  align-items: flex-start;
+}
+
+article {
+  flex: 2;
+}
+
+aside {
+  flex: 1;
 }
